@@ -57,6 +57,7 @@ class CustomFloatingActionButton extends StatelessWidget {
   Future<dynamic> _showdialog(BuildContext context, ItemModel item) {
     AlertDialog alert = AlertDialog(
       backgroundColor: ColorItems.white,
+      surfaceTintColor: Colors.transparent,
       shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(12))),
       content: SizedBox(

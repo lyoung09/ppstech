@@ -14,6 +14,7 @@ class WidgetFactory {
           automaticallyImplyLeading: false,
           elevation: 0,
           backgroundColor: ColorItems.transParent,
+          surfaceTintColor: Colors.transparent,
           title: Text(title, style: TextItems.textStyle.copyWith(fontSize: 16)),
           centerTitle: true,
           leadingWidth: 50,
