@@ -96,6 +96,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                                   ? showModalBottomSheet(
                                       context: context,
                                       isScrollControlled: true,
+                                      backgroundColor: ColorItems.white,
                                       builder: (BuildContext context) {
                                         return WidgetFactory.customBottomDialog(
                                             context, 630, allCategory(context));
@@ -141,6 +142,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                   onTap: () {
                     showModalBottomSheet(
                       context: context,
+                      backgroundColor: ColorItems.white,
                       builder: (BuildContext context) {
                         return WidgetFactory.customBottomDialog(
                             context, 176, sortingPrice(context));

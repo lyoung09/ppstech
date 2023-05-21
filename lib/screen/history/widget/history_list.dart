@@ -42,6 +42,7 @@ class HistoryListWidget extends StatelessWidget {
                           showModalBottomSheet(
                               context: context,
                               isScrollControlled: true,
+                              backgroundColor: ColorItems.white,
                               builder: (context) {
                                 return WidgetFactory.customBottomDialog(
                                     context, 633, saveHistory(context));
